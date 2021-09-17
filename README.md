@@ -1,1 +1,4 @@
-### fullstack todo-api
+### fullstack todolist
+
+client - react hook
+server - express
