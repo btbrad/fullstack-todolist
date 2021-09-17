@@ -1,0 +1,15 @@
+GET http://localhost:3001/todos
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+  "text": "insomia"
+}
+
+###
+DELETE http://localhost:3001/todo/delete/61443c490341531d590ce4d8
+
+###
+PUT http://localhost:3001/todo/complete/61443c210341531d590ce4d6
